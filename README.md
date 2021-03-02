@@ -2,7 +2,7 @@
 
 In this project I wrote the Javascript for a website to prompt a user to pick through a list of criteria and for the code to generate a random password based off the criteria.
 
-You can fin a screenshot of the website here : 
+You can find a screenshot of the website here : 
 <img
 src = "./assets/images/password-gen.png"
 raw=true
