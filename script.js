@@ -25,6 +25,23 @@ function generatePassword(){
     var DoYouNum = confirm('Do you want numbers?');
     var DoYouLett = confirm('Do you want letters?');
     var DoYouChar = confirm('Do you want special characters?');
+    if(DoYouNum === true && DoYouChar === true && DoYouLett === true){
+    //random generate from each arr
+    }else if(DoYouNum === false && DoYouChar === true && DoYouLett === true){
+      //random generate char + lett
+    }else if (DoYouNum === true && DoYouChar === false && DoYouLett === true){
+      //random generate num + let
+    }else if (DoYouNum === true && DoYouChar === true && DoYouLett === false){
+      //random generate num + char
+    }else if (DoYouNum === false && DoYouChar === false && DoYouLett === true){
+      //random generate let
+    }else if (DoYouNum === false && DoYouChar === true && DoYouLett === false){
+      //random generate char
+    }else if (DoYouNum === true && DoYouChar === false && DoYouLett === false){
+      //random generate num 
+    }else{
+      alert('please click generate password button again and pick at least one field.')
+    }
   }
 }
 // Write password to the #password input
